@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+:root {
+    --roxo: #33194c;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+
+body {
+    background: var(--preto);
+    font-family: 'amatic sc', sans-serif;
+    color: white;
+}
+
+/* Cabeçalho */
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--roxo);
+    font-family: 'amatic sc', sans-serif;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* CAPA */
+
+.capa {
+    height: 80vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.capa img {
+   margin-left: auto;
+   margin-right: auto;
+   width: 80em;
+   height: 25em;
+   
+   /* width: 1300px;
+    height: 450px;
+    text-align: center;*/
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
