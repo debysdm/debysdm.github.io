@@ -74,7 +74,7 @@ a:hover {
 /* Página */
 
 .sobre {
-    color: #141414;
+    color: black;
     margin: 40px;
 }
 
@@ -88,11 +88,19 @@ a:hover {
     font-size: 30px;
     color: #9370db;
     letter-spacing: 4px;
+    line-height: 1px;
 }
 
 
 .sobre p {
-    font-size: 25px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.cursos p {
+    line-height: 25px;
 }
 
 /* FOOTER */
