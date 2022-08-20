@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'amatic sc', sans-serif;
+}
+
+/* HEADER */
+
+.header-wrapper {
+    height: 40vh;
+    width: 100vw;
+    background: linear-gradient(-45deg, #483d8b, #663399, #9370db, #DDA0DD);
+    background-size: 400% 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: backgroundTransition 8s ease-in-out infinite;
+    position: relative;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 60px;
+    line-height: 1px;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 1px;
+}
+
+.social-media {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 28px;
+    padding: 1rem 4rem;
+    border: 1px solid #ffffff;
+    min-width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+}
+
+a:hover {
+    color: #2E1C2B;
+    background-color: #ffffff;
+}
+
+@keyframes backgroundTransition {
+    0% {
+        background-position:  0% 80%;
+    }
+    50% {
+        background-position: 80% 100%;
+    }
+    100% {
+        background-position: 0% 90%;
+    }
+}
+
+/* Página */
+
+.projetos {
+    color: black;
+    margin: 40px;
+}
+
+.projetos h3 {
+    font-size: 40px;
+    color: #3f156a;
+    letter-spacing: 4px;
+}
+
+.projetos h4 {
+    font-size: 30px;
+    color: #9370db;
+    letter-spacing: 4px;
+    line-height: 1px;
+}
+
+.projetos a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #2E1C2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .social-media {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+a {
+    text-decoration: none;
+}
